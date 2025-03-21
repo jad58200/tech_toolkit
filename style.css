@@ -1,138 +1,63 @@
 html {
-    background-color: rgb(250, 225, 247);
-}
-
-.omelette {
-    text-align: center;
-}
-
-#id-5 {
-    margin-top: 5.5%;
-    border-radius: 12px;
-    margin-bottom: 0.5%;
+    background-color: hsl(0, 0%, 8%);
 }
 
 body {
-    border-radius: 25px;
-    margin-bottom: 150px;
-    margin-top: 150px;
-    margin-left: 470px;
-    margin-right: 470px;
-    background-color: white;
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 650px;
+    margin-right: 650px;
 }
 
-.firstDiv>h1 {
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 50px;
+.firstp {
+    text-align: center;
 }
 
-.firstDiv p {
-    margin-left: 45px;
+.firstp h2 {
+    color: white;
+    margin-bottom: -9px;
+}
+
+.firstp p {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
-.time {
-    background-color: rgb(254, 244, 252);
-    padding: 1%;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 30px;
+#id-5 {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 100px;
 }
 
-.time>h3 {
-    margin-left: 10px;
-    color: rgb(146, 54, 99);
+.secondp {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-ul {
-    li::marker {
-        color: rgb(146, 54, 99);
-    }
+.social-links {
+    text-align: center;
+    margin: 20px 0;
 }
 
-li {
-    padding-left: 15px;
+.social-link {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.ingredients>h1 {
-    margin-left: 40px;
-    color: maroon;
-}
-
-.ingredients {
-    ul {
-        margin-left: 25px;
-        li::marker {
-            color: maroon;
-        }
-    }
-}
-
-.instructions>h1 {
-    margin-left: 40px;
-    color: maroon;
-}
-
-.instructions {
-    ol {
-        margin-left: 23px;
-        li::marker {
-            color: maroon;
-        }
-    }
-}
-
-.nutrition>h1 {
-    margin-left: 40px;
-    color: maroon;
-}
-
-.nutrition p {
-    margin-left: 40px;
-}
-
-.nutrition {
-    margin-bottom: 50px;
-}
-
-td {
-    margin-left: 50px;
-    text-align: left;
-    padding-left: 60px;
-    padding-right: 100px;
-    padding-bottom: 10px;
-}
-
-#first,
-#second,
-#third,
-#fourth {
-    color: maroon;
-    font-size: large;
-}
-
-hr {
-    margin-left: 35px;
-    margin-right: 35px;
-}
-
-table {
-    width: 90%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-
-tr {
-    border-bottom: 2px solid #ddd;
-}
-
-tr:last-child {
-    border-bottom: none;
-}
-
-td {
-    padding: 12px 20px;
-    text-align: left;
+.social-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
